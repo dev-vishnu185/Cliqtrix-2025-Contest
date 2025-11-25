@@ -1,0 +1,35 @@
+/* * {
+  background: rgba(0, 100, 0, 0.1) ;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  min-height: 100dvh;
+}
+
+.main-content {
+  grid-area: main;
+  width: clamp(300px, 90vw, 1200px);
+  margin: 0 auto;
+  padding-block: 1rem;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-block: 1.5rem 1rem;
+}

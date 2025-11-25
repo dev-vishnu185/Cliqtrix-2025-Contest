@@ -1,0 +1,69 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-size: clamp(1rem, 2vw, 1.25rem);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  scroll-padding-top: 65px;
+
+  --color-white: #ffffff;
+  --color-text-primary: #000000;
+  --color-text-secondary: #555;
+  --color-text-tertiary: #444;
+
+  --color-accent-hover: #1aa01a;
+  --color-primary-green: 46, 125, 50;
+  --color-accent-green: rgb(21, 196, 21);
+  --color-tag-bg: #e0f7e9;
+  --color-header-bg: #424A3B;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+}
+
+h2 {
+  font-weight: 400;
+  font-size: clamp(1.15rem, 2vw, 1.7rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 1vw, 1.3rem);
+}

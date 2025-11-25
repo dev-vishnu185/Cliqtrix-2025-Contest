@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-title {
+  margin-right: .5rem;
+}
+
+.footer-nav-links>*:not(:last-child)::after {
+  content: "|";
+  margin-inline: .5rem;
+}
+
+.seperator {
+  /* border: 1px solid var( --color-text-primary); */
+  border: 1px solid rgba(0, 0, 0, .4);
+  max-width: 96%;
+  margin: 0 auto;
+}
