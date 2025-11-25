@@ -67,9 +67,3 @@ h2 {
 h3 {
   font-size: clamp(1rem, 1vw, 1.3rem);
 }
-
-@media (max-width: 768px) {
-  :root {
-    scroll-behavior: auto;
-  }
-}
