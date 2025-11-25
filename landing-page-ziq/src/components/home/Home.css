@@ -1,6 +1,5 @@
 #home {
   scroll-margin-top: 4rem;
-  /* min-height: calc(100dvh - 4rem); */
   min-height: 100svh;
 }
 
