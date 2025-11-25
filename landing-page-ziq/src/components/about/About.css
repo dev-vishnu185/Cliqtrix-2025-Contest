@@ -5,7 +5,8 @@
   align-items: center;
   padding: .2rem;
   text-align: justify;
-  min-height: calc(100dvh - 100px);
+  /* min-height: calc(100dvh - 100px); */
+  min-height: 100svh;
 }
 
 .about-sub-content {
